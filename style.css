@@ -1,0 +1,33 @@
+.main div{
+    display:none;
+}
+.main div:target{
+    display:block;
+    background-color:blue;
+    color:white;
+    padding:10px;
+}
+p::first-line{
+    color:green;
+}
+p::first-letter{
+    font-size: 30px;
+    color:red;
+}
+span::first-line{
+    color:red;
+}
+p.um:first-letter{
+    font-weight:bold;
+    font-size:30px;
+    color:red;
+}
+h1::before{
+    content:url(images/smile.gif);
+}
+h1::after{
+    content: "I am after";
+    color: green;
+    
+
+}
